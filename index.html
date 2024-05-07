@@ -1,15 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="icon"
-      href="./assets/favicon.jpg"
-      loading="lazy"
-      type="image/x-icon"
-    />
+    <link rel="shortcut icon" href="./assets/favicon.jpg" type="image/x-icon" />
     <title>Personal Portfolio</title>
-  </head>
-  <body></body>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="media.css">
+</head>
+
+<body>
+    <nav id="nav-bar">
+        <ul class="sidebar">
+            <li onclick=hideSidebar()><a href="#"><svg src="./assets/cross.png" height="26" viewBox="0 96 960 960"
+                        width="26">
+                        <path
+                            d="m249 849-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z" />
+                    </svg></a></li>
+            <li><a href="#welcome">Welcome</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#footer">Footer</a></li>
+        </ul>
+        <ul>
+            <li><a href="#nav-bar">
+                    <div class="logo-image">
+                        <img src="./assets/logo.jpg" alt="logo bolte">
+                        <p class="logo-description">Aaiyye!</p>
+                    </div>
+                </a></li>
+            <li class="hideOnMobile"><a href="#welcome">Welcome</a></li>
+            <li class="hideOnMobile"><a href="#projects">Projects</a></li>
+            <li class="hideOnMobile"><a href="#contact">Contact</a></li>
+            <li class="hideOnMobile"><a href="#footer">Footer</a></li>
+            <li class="menu-button" onclick=showSidebar()><a href="#"><svg src="./assets/download.png" height="26"
+                        viewBox="0 96 960 960" width="26">
+                        <path d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z" />
+                    </svg></a></li>
+        </ul>
+    </nav>
+
+    <script src="app.js"></script>
+</body>
+
 </html>
