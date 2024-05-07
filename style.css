@@ -19,6 +19,27 @@ body {
 nav {
     background-color: white;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(60deg, #C65BCF 10%, #874CCC 40%, #FB9AD1)
+}
+
+.logo-image {
+    margin-right: auto;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo-image img {
+
+    /* top: 5%; */
+    height: 40px;
+    width: 100px;
+    object-fit: cover;
+    border-radius: 10px;
+    opacity: 0.9;
 }
 
 nav ul {
