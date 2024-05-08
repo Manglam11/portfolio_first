@@ -34,7 +34,7 @@ This is a personal portfolio website designed and developed by [Manglam](https:/
 
 # Live Preview
 
-You can view the live version of this project [here](add_your_live_preview_link).
+You can view the live version of this project [here](https://manglam11.github.io/portfolio_first/).
 
 ## Usage
 
