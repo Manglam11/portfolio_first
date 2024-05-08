@@ -4,7 +4,7 @@
 
 ## Description
 
-This is a personal portfolio website designed and developed by [Manglam](https://github.com/Manglam11). It showcases projects, contact information, and social media links.
+This is a personal portfolio website designed and developed by [Manglam](https://github.com/Manglam11){:target="\_blank"}. It showcases projects, contact information, and social media links.
 
 ## Features
 
@@ -34,7 +34,7 @@ This is a personal portfolio website designed and developed by [Manglam](https:/
 
 # Live Preview
 
-You can view the live version of this project [here](https://manglam11.github.io/portfolio_first/).
+You can view the live version of this project [here](https://manglam11.github.io/portfolio_first/){:target="\_blank"}.
 
 ## Usage
 
