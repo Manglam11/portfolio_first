@@ -287,3 +287,20 @@ nav li:first-child {
     font-weight: 400;
     margin: 0px 5px;
 }
+
+@media(max-width: 800px) {
+    .hideOnMobile {
+        display: none;
+    }
+
+    .menu-button {
+        display: block;
+    }
+
+}
+
+@media(max-width: 400px) {
+    .sidebar {
+        width: 100%;
+    }
+}
