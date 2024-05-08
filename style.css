@@ -12,10 +12,12 @@ body {
 }
 
 #navbar {
-    /* position: fixed; */
+    position: fixed;
     background-color: white;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
-    background: linear-gradient(60deg, #C65BCF 10%, #874CCC 40%, #FB9AD1)
+    background: linear-gradient(60deg, #C65BCF 10%, #874CCC 40%, #FB9AD1);
+    width: 100%;
+    z-index: 1000;
 }
 
 nav ul {
@@ -234,4 +236,54 @@ nav li:first-child {
     border-radius: 25px;
     text-decoration: none;
     font-weight: 500;
+}
+
+#footer {
+    background-color: #111;
+    width: 100%;
+    padding: 70px 30px 20px;
+}
+
+.socialIcons {
+    display: flex;
+    justify-content: center;
+}
+
+.socialIcons a {
+    text-decoration: none;
+    padding: 8px;
+    background-color: #fff;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.socialIcons a i {
+    font-size: 2em;
+    color: black;
+    opacity: 0.9;
+}
+
+.socialIcons a:hover {
+    background-color: #111;
+    transition: 0.5s ease-in-out;
+}
+
+.socialIcons a:hover i {
+    color: #fff;
+    transition: 0.5s;
+}
+
+.footerBottom {
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+.designer {
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
 }
